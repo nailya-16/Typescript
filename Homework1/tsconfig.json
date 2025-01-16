@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "lib": ["es2019", "dom"],
+        "module": "Node16",
+        "sourceMap": true,
+        "moduleResolution": "node16",
+        "outDir": ".",
+        "experimentalDecorators": true
+    },
+
+    "files": ["users.ts"],
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "compileOnSave": false,
+}
+
