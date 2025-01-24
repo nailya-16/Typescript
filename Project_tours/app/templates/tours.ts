@@ -1,9 +1,9 @@
-//import {ITours} from "../models/tours";
+import {ITours} from "../models/tours";
 import {images} from "@services/img/img";
 
 
 // указать возвращающий тип и тип для параметра
-export function getTourTemplate(obj, i) {
+export function getTourTemplate(obj: ITours, i: number): string {
     const tmpl = ` 
        <div  data-tour-item-index=${i} class="tour-block">
            <h2>${obj.name}</h2>
