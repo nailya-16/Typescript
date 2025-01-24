@@ -7,7 +7,7 @@ import {initFooterTitle, initHeaderTitle} from "@services/general/general";
 
 
 let ticketInstance: TicketType ;
-let ticketPostInstance;
+let ticketPostInstance: any;
 const clientType = "custom";
 
 
